@@ -1,36 +1,110 @@
-*{
-    font-family: sans-serif;
-}
-.formulario{
-    padding: 30px;
-    width: 50%;
-    height: 50vh;
-    display: flex;
-    margin-top: 2em;
-    border-radius: 30px;
-    border: solid 2px black;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: center;
-    
-    background-color: rgb(33, 138, 103);
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 2em 1em;
+  }
+  
+  /* Seções */
+  section {
+    margin: 2em auto;
+    max-width: 800px;
+  }
+  
+  /* Formulário principal e de mudar senha */
+  .formulario {
+    background-color: #218a67;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: white;
-}
-.formulario form{
     display: flex;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario form {
+    display: flex;
     flex-direction: column;
-    
-}
-form label{
-    text-align: center;
-    font-size: large;
-}
-form input{
-    padding: 5px;
+    gap: 1em;
+    width: 100%;
+  }
+  
+  form label {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+  }
+  
+  form input {
+    padding: 0.6em 1em;
     border-radius: 30px;
-    border: solid gray 1px;
-    background-color: white;
-
-}
+    border: 1px solid gray;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 0.8em 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  hr {
+    margin: 3em auto;
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 80%;
+  }
+  
+  .gerenciar-dados {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gerenciar-dados h1 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .gerenciar-dados h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #218a67;
+  }
+  
+  .consulta button,
+  .mudar-senha button {
+    margin-top: 1em;
+  }
+  
+  #lista-consulta {
+    list-style: none;
+    margin-top: 1em;
+    padding-left: 1em;
+  }
+  
+  #lista-consulta li {
+    background-color: #f0f0f0;
+    margin: 0.4em 0;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-size: 0.95em;
+  }
+  
