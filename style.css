@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+.formulario{
+    padding: 30px;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    margin-top: 2em;
+    border-radius: 30px;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(33, 138, 103);
+    color: white;
+}
+.formulario form{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    
+}
+form label{
+    text-align: center;
+    font-size: large;
+}
+form input{
+    padding: 5px;
+    border-radius: 30px;
+    border: solid gray 1px;
+    background-color: white;
+
+}
